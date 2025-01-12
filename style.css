@@ -11,16 +11,9 @@
 .navigation{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 75%;
+    color: black;
+    list-style-type: none;
 
 }
 
-.logo-container {
-    height: 100%;
-    width: auto;
-    display: table;
-    float: left;
-    padding: 0px 20px;
-    color: white;
-    font-size: 10px;
-}
