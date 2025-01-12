@@ -1,0 +1,13 @@
+.header{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    padding: 0px 50px;
+    float: left;
+    font-size: 15px;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
