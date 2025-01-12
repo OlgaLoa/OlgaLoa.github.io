@@ -1,11 +1,11 @@
 .header{
-    background-color: purple;
+    background-color: rgba(241, 16, 241, 0.19);
     height: 100%;
     width: 100%;
     padding: 0px 50px;
     font-size: 15px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
 
 }
 
@@ -15,3 +15,12 @@
 
 }
 
+.logo-container {
+    height: 100%;
+    width: auto;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    color: white;
+    font-size: 10px;
+}
