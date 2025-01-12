@@ -5,13 +5,13 @@
     padding: 0px 50px;
     font-size: 15px;
     display: flex;
-    justify-content: space-between;
+
 
 
 }
 
 .navigation{
-
+    justify-content: space-between;
     height: 100%;
 
 }
