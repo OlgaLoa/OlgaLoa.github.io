@@ -9,9 +9,10 @@
 }
 
 .navigation{
+    padding-top:30px
     display: flex;
     justify-content: space-between;
-    width: 75%;
+    width: 90%;
     color: black;
     list-style-type: none;
 
