@@ -5,10 +5,11 @@
     padding: 0px 50px;
     font-size: 15px;
     display: flex;
-    flex-direction: row;
+
 }
 
 .navigation{
+    justify-content: space-between;
     width: 40%;
 
 }
