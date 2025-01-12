@@ -12,3 +12,10 @@
     width: 40%;
     height: 100%;
 }
+
+.navigation a {
+    vertical-align: middle;
+    display: table-cell;
+    color: black;
+    list-style-type: none;
+}
