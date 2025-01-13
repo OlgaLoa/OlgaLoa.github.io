@@ -9,7 +9,7 @@
 
 }
 
-.navigation{
+.flex-navigation{
 
     display: flex;
     justify-content: space-between;
@@ -40,4 +40,24 @@
 .content-container p {
   margin-top: 0; /* убрать отступ сверху */
   text-align : justify; /*выровнять текст по ширине*/
+}
+
+
+/* Блоки навыков Python, Django, JS */
+.grid-blocks {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.item-1 {
+    background-color: rgb(161, 48, 48);
+}
+
+.item-2 {
+    background-color: rgb(49, 163, 68);
+}
+
+.item-3 {
+    background-color: rgb(34, 32, 180);
 }
