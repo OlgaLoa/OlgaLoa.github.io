@@ -50,14 +50,14 @@
     grid-template-rows: 100px 100px 100px;
 }
 
-.item-1 {
+.block-1 {
     background-color: rgb(161, 48, 48);
 }
 
-.item-2 {
+.block-2 {
     background-color: rgb(49, 163, 68);
 }
 
-.item-3 {
+.block-3 {
     background-color: rgb(34, 32, 180);
 }
