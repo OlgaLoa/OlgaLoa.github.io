@@ -40,8 +40,7 @@
 }
 /* Выстроить контент в 2 блока: О себе и Навыки */
 .grid_content {
-    height: 100%;
-    width: 100%;
+
     display: grid;
     grid-template-columns: 700px ;
     grid-template-rows: 428px 300px ;
