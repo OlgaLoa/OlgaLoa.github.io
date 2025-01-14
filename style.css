@@ -4,9 +4,6 @@
     width: 100%;
     padding: 0px 50px;
     font-size: 15px;
-
-
-
 }
 
 .flex-navigation{
@@ -43,6 +40,8 @@
 }
 /* Выстроить контент в 2 блока: О себе и Навыки */
 .grid_content {
+    height: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: 200px ;
     grid-template-rows: 100px 100px ;
