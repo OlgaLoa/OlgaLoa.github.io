@@ -41,8 +41,12 @@
   margin-top: 0; /* убрать отступ сверху */
   text-align : justify; /*выровнять текст по ширине*/
 }
-
-
+/* Выстроить контент в 2 блока: О себе и Навыки */
+.grid_content {
+    display: grid;
+    grid-template-columns: 200px ;
+    grid-template-rows: 100px 100px ;
+}
 /* Блоки навыков Python, Django, JS */
 .grid-blocks {
     box-shadow: 5px 5px 10px grey; /*тень к элементу*/
