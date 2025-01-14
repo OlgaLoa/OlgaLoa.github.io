@@ -43,14 +43,14 @@
 
     display: grid;
     grid-template-columns: 700px ;
-    grid-template-rows: 428px 300px ;
+    grid-template-rows: 361px 300px ;
 }
 /* Блоки навыков Python, Django, JS */
 .grid-blocks {
     box-shadow: 5px 5px 10px grey; /*тень к элементу*/
     display: grid;
-    grid-template-columns: repeat(3, 200px); /*3 колонки*/
-    grid-template-rows: 100px;/*1 строка*/
+    grid-template-columns: repeat(3, 300px); /*3 колонки*/
+    grid-template-rows: 300px;/*1 строка*/
     grid-gap: 2vw;/*отступы между ячейками*/
 }
 .grid-block {
