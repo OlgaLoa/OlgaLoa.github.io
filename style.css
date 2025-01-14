@@ -43,8 +43,8 @@
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: 200px ;
-    grid-template-rows: 100px 100px ;
+    grid-template-columns: 700px ;
+    grid-template-rows: 428px 300px ;
 }
 /* Блоки навыков Python, Django, JS */
 .grid-blocks {
