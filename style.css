@@ -47,6 +47,8 @@
 }
 /* Блоки навыков Python, Django, JS */
 .grid-blocks {
+    height: 100%;
+    width: 100%;
     box-shadow: 5px 5px 10px grey; /*тень к элементу*/
     display: grid;
     grid-template-columns: repeat(3, 300px); /*3 колонки*/
