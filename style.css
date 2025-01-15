@@ -40,10 +40,10 @@
 }
 /* Выстроить контент в 2 блока: О себе и Навыки */
 .grid_content {
-
     display: grid;
-    grid-template-columns: 700px ;
-    grid-template-rows: 361px 300px ;
+
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: auto;
 }
 /* Блоки навыков Python, Django, JS */
 .grid-blocks {
