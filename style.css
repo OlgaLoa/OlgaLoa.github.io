@@ -43,20 +43,19 @@
 
     display: grid;
     grid-template-columns: 700px ;
-    grid-template-rows: 361px 200px ;
+    grid-template-rows: 361px 300px ;
 }
 /* Блоки навыков Python, Django, JS */
 .grid-blocks {
 
     box-shadow: 5px 5px 10px grey; /*тень к элементу*/
     display: grid;
-    grid-template-columns: repeat(3, 300px); /*3 колонки*/
-    grid-template-rows: 300px;/*1 строка*/
+    grid-template-columns: repeat(3, 200px); /*3 колонки*/
+    grid-template-rows: 200px;/*1 строка*/
     grid-gap: 2vw;/*отступы между ячейками*/
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
-.grid-block {
-    min-height: 100px;
-}
+
 .block-1 {
     background-color: rgb(161, 48, 48);
 
@@ -64,6 +63,11 @@
 
 .block-2 {
     background-color: rgb(49, 163, 68);
+
+}
+
+.block-3 {
+    background-color: rgb(34, 32, 180);
 
 }
 
