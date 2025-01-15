@@ -57,7 +57,7 @@
 }
 
 .grid-block {
-    background-color: rgb(161, 48, 48);
+    background-color: rgba(241, 16, 241, 0.19);
     box-shadow: 5px 5px 10px grey; /*тень к элементу*/
 
 }
