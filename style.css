@@ -42,8 +42,8 @@
 .grid_content {
 
     display: grid;
-    grid-template-columns: calc(100vh - 80px); ; /*ширина контента на всю страницу*/
-    grid-template-rows: 90% ; /*высота контента на всю страницу*/
+    grid-template-columns: 100%; ; /*ширина контента на всю страницу*/
+    grid-template-rows: calc(100vh - 80px) ; /*высота контента на всю страницу*/
 }
 /* Блоки навыков Python, Django, JS */
 .grid-blocks {
