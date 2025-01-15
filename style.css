@@ -50,7 +50,7 @@
 
 
     display: grid;
-    grid-template-columns: repeat(4, 200px); /*3 колонки*/
+ 
     grid-template-rows: 200px;/*1 строка*/
     grid-gap: 2vw;/*отступы между ячейками*/
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
