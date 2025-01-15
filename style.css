@@ -42,8 +42,8 @@
 .grid_content {
 
     display: grid;
-    grid-template-columns: 100% ; /*ширина контента на всю страницу*/
-    grid-template-rows: 100% ; /*высота контента на всю страницу*/
+    grid-template-columns: calc(100vh - 80px); ; /*ширина контента на всю страницу*/
+    grid-template-rows: 90% ; /*высота контента на всю страницу*/
 }
 /* Блоки навыков Python, Django, JS */
 .grid-blocks {
@@ -78,4 +78,9 @@
      background-color: rgb(161, 48, 48);
      box-shadow: 5px 5px 10px grey; /*тень к элементу*/
 
+}
+
+.footer {
+  height: 80px;
+  margin-top: -80px;
 }
