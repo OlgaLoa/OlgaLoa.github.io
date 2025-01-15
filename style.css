@@ -39,8 +39,12 @@
   text-align : justify; /*выровнять текст по ширине*/
 }
 /* Выстроить контент в 2 блока: О себе и Навыки */
+.grid_content {
 
-
+    display: grid;
+    grid-template-columns: 700px ;
+    grid-template-rows: 361px 300px ;
+}
 /* Блоки навыков Python, Django, JS */
 .grid-blocks {
 
