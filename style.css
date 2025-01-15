@@ -63,6 +63,7 @@
 }
 .grid-block h2{
     font-weight:bold;  /*полужирный шрифт*/
+    width:100%;
     text-align:center;
     background-color: rgba(241, 16, 241, 0.19);
     box-shadow: 5px 5px 10px grey; /*тень к элементу*/
