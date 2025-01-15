@@ -56,29 +56,12 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.block-1 {
+.grid-block {
     background-color: rgb(161, 48, 48);
     box-shadow: 5px 5px 10px grey; /*тень к элементу*/
 
 }
 
-.block-2 {
-    background-color: rgb(49, 163, 68);
-    box-shadow: 5px 5px 10px grey; /*тень к элементу*/
-
-}
-
-.block-3 {
-    background-color: rgb(34, 32, 180);
-    box-shadow: 5px 5px 10px grey; /*тень к элементу*/
-
-}
-
-.block-4 {
-     background-color: rgb(161, 48, 48);
-     box-shadow: 5px 5px 10px grey; /*тень к элементу*/
-
-}
 
 .footer {
   height: 80px;
