@@ -42,13 +42,13 @@
 .grid_content {
 
     display: grid;
-    grid-template-columns: 700px ;
-    grid-template-rows: 361px 300px ;
+    grid-template-columns: 100% ; /*ширина контента на всю страницу*/
+    grid-template-rows: 100% ; /*высота контента на всю страницу*/
 }
 /* Блоки навыков Python, Django, JS */
 .grid-blocks {
 
-    box-shadow: 5px 5px 10px grey; /*тень к элементу*/
+
     display: grid;
     grid-template-columns: repeat(4, 200px); /*3 колонки*/
     grid-template-rows: 200px;/*1 строка*/
@@ -58,20 +58,24 @@
 
 .block-1 {
     background-color: rgb(161, 48, 48);
+    box-shadow: 5px 5px 10px grey; /*тень к элементу*/
 
 }
 
 .block-2 {
     background-color: rgb(49, 163, 68);
+    box-shadow: 5px 5px 10px grey; /*тень к элементу*/
 
 }
 
 .block-3 {
     background-color: rgb(34, 32, 180);
+    box-shadow: 5px 5px 10px grey; /*тень к элементу*/
 
 }
 
-.block-3 {
-    background-color: rgb(34, 32, 180);
+.block-4 {
+     background-color: rgb(161, 48, 48);
+     box-shadow: 5px 5px 10px grey; /*тень к элементу*/
 
 }
