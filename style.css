@@ -54,6 +54,7 @@
     /* фоновое изображения */
     background-image: url('back.jpeg');
     background-size: contain; /* растяжка по содержимому */
+    opacity: 0.6;
 
 
 }
