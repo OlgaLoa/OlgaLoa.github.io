@@ -53,7 +53,7 @@
 .back_color {
     /* фоновое изображения */
     background-image: url('back.jpeg');
-    background-size: cover; /* растяжка по содержимому */
+    background: cover; /* растяжка по содержимому */
     opacity: 1;
 
 
