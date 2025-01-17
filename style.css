@@ -57,14 +57,14 @@
     background-size: cover;
     height: 100%;
     width: 100%;
-    z-index: 4;
+
 }
 
 
 
 /* Блоки навыков Python, Django, JS */
 .grid-blocks {
-    z-index: 5;
+
 
     display: grid;
 
