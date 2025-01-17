@@ -49,9 +49,11 @@
     grid-template-columns: 100%; ; /*ширина контента на всю страницу*/
     grid-template-rows: calc(100vh - 80px) ; /*высота контента на всю страницу*/
 
-
+    /* фоновое изображения */
     background-image: url('back.jpeg');
-    background-size: cover; /* размер одного повторяющегося изображения */
+    background-size: contain; /* растяжка по содержимому */
+    opacity: 0.6;/* прозрачность изображения */
+
 }
 
 
