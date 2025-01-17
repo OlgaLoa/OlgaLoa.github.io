@@ -50,7 +50,7 @@
     grid-template-rows: calc(100vh - 80px) ; /*высота контента на всю страницу*/
 
 
-    background-image: url('back.jpg');
+    background-image: url('back.jpeg');
     background-size: cover; /* размер одного повторяющегося изображения */
 }
 
