@@ -1,9 +1,10 @@
 .header{
-    background-color: rgba(241, 16, 241, 0.19);
-    height: 100%;
+    position: fixed;
+    top: 0;
+    margin: 0px;
+    height: 90px;
     width: 100%;
-    padding: 0px 50px;
-    font-size: 15px;
+    z-index: 10;
 }
 
 .flex-navigation{
