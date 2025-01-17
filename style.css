@@ -20,8 +20,9 @@
     border: 5px;
 
 }
+
 .body {
-    background-image: url("back.jpg");
+    background: red;
     background-size: no-repeat;
     background-position: center;
     background-size: cover;
