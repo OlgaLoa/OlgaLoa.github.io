@@ -50,20 +50,21 @@
     grid-template-rows: calc(100vh - 80px) ; /*высота контента на всю страницу*/
 
 
-
-    background-image: url("back.jpg");
+}
+#image {
     background-size: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100%;
     width: 100%;
-
-    z-index: -1;
-
+    z-index: 4;
 }
+
+
+
 /* Блоки навыков Python, Django, JS */
 .grid-blocks {
-
+    z-index: 5;
 
     display: grid;
 
