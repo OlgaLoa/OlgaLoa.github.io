@@ -66,12 +66,13 @@ body {
     background-size: cover; /* растяжка по содержимому */
 
     background-position: center;
-}
-back_opacity {
     opacity: 0.6;
 }
 
 
+#back_opacity {
+  opacity: 1;
+}
 
 
 /* Блоки навыков Python, Django, JS */
