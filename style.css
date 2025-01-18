@@ -13,7 +13,7 @@ body {
 
 .header{
     background-color: rgba(241, 16, 241, 0.19);
-    color: white;
+
 }
 
 .flex-navigation{
@@ -22,7 +22,6 @@ body {
     justify-content: space-between;
 
 
-    color: black;
     list-style-type: none;
     box-sizing: border-box;
     margin: 10px;
