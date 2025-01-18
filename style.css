@@ -12,7 +12,7 @@ body {
 
 
 .header{
-    background-color: rgba(241, 16, 241, 0.19);
+    background-color: rgba(141, 43, 214, 0.8);
 
 }
 
@@ -38,9 +38,7 @@ body {
     margin-bottom: 0;
     font-size: 20px;
 }
-.content h2{
-    color: white;
-}
+
 
 
 .content hr {
