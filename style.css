@@ -7,6 +7,7 @@ body {
     padding: 0px;
 /*	overflow-x: hidden;*/
     min-width: 600px;
+    color: white;
 }
 
 
@@ -59,34 +60,28 @@ body {
     grid-template-columns: 100%; ; /*ширина контента на всю страницу*/
     grid-template-rows: calc(100vh - 80px) ; /*высота контента на всю страницу*/
 }
+
+.back_color  {
+    position: relative;
+    opacity: 1;/* здесь 1 определяет уровень прозрачности для вложенных элементов */
+}
+
+/* добавляем псевдокласс для настройки фонового изображения с прозрачностью  */
 .back_color::before {
-/* фоновое изображения */
     content: "";
     background-image: url('back.jpeg');
     background-size: cover; /* растяжка по содержимому */
-
     background-position: center;
-
-     position: absolute;
-  top: 0;
-
-  left: 0;
-
-  width: 100%;
-
-  height: 100%;
-    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
     z-index: -1;
 }
 
-.back_color  {
 
-
-  position: relative;
-
-  opacity: 1;/* здесь 0.5 определяет уровень прозрачности (от 0 до 1) */
-
-}
 
 
 
