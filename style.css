@@ -38,6 +38,9 @@ body {
     margin-bottom: 0;
     font-size: 20px;
 }
+.content h2{
+    color: white;
+}
 
 
 .content hr {
@@ -112,7 +115,7 @@ body {
     text-align:center;/*по-центру*/
     background-color: rgba(241, 16, 241, 0.19);
     box-shadow: 5px 5px 10px grey; /*тень к элементу*/
-    color: white;
+
 
 }
 .grid-block p {
