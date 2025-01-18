@@ -64,7 +64,6 @@ body {
     /* фоновое изображения */
     background-image: url('back.jpeg');
     background-size: cover; /* растяжка по содержимому */
-    opacity: 1;
 
     background-position: center;
 }
