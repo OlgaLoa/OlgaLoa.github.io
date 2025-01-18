@@ -59,7 +59,7 @@ body {
     grid-template-columns: 100%; ; /*ширина контента на всю страницу*/
     grid-template-rows: calc(100vh - 80px) ; /*высота контента на всю страницу*/
 }
-.back_color::before {
+.back_color:before {
 /* фоновое изображения */
     background-image: url('back.jpeg');
     background-size: cover; /* растяжка по содержимому */
