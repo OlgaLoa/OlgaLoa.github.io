@@ -141,6 +141,7 @@ footer{
 
 .content p {
   margin-bottom: 0;
+  overflow: scroll;
 }
 
 
