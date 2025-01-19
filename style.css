@@ -61,6 +61,7 @@ body {
 /* Выстроить контент в 2 блока: О себе и Навыки */
 .grid_content {
     width: 100%;
+    height: 500px;
     display: grid;
     grid-template-columns: 100%; ; /*ширина контента на всю страницу*/
     grid-template-rows: calc(100vh - 80px) ; /*высота контента на всю страницу*/
