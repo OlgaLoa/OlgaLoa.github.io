@@ -137,6 +137,8 @@ footer{
 
 
 /* настройка skillbar*/
+
+* {box-sizing: border-box}
 .container {
   width: 100%;
   background-color: #ddd;
