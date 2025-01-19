@@ -154,7 +154,8 @@ footer{
 }
 
 .content p {
-  margin-bottom: 0;
+  margin-bottom: 10;
+  margin-top: 10;
 }
 
 
