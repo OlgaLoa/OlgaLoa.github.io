@@ -50,6 +50,7 @@ body {
     box-shadow: 5px 5px 10px grey;
 }
 .content-container img {
+  height: 268.33;
   float: left;
   margin-right: 0; /* отступ между картинкой и текстом */
   box-shadow: 5px 5px 10px grey;
