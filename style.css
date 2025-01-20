@@ -164,6 +164,7 @@ footer{
   text-align: left;
   outline: none;
   font-size: 15px;
+  box-shadow: 5px 5px 10px grey;
 }
 .active, .collapsible:hover {
   background-color: #555;
@@ -172,5 +173,6 @@ footer{
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color:  rgba(141, 43, 214, 0.8);
+  box-shadow: 5px 5px 10px grey;
 }
