@@ -145,7 +145,7 @@ footer{
 }
 
 
-.python {width: 90%; background-color: rgba(141, 43, 214, 1);}
+.python {width: 90%; background-color: rgba(141, 43, 214, 1); box-shadow: 5px 5px 10px grey;}
 .django {width: 80%; background-color: #2196F3;}
 .js {width: 65%; background-color: #f44336;}
 .ws {width: 60%; background-color: #808080;}
