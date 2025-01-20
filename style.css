@@ -28,9 +28,10 @@ body {
     border: 5px;
 
 }
-.content h1{
+.content h2{
     margin-bottom: 0;
     font-size: 20px;
+    box-shadow: 5px 5px 10px grey;
 }
 
 .content hr {
